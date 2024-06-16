@@ -1,4 +1,4 @@
-#A function that display the transposition of a matrix entered by the user.
+#A function that display the transposition of a matrix given by the user.
 
 def Transpo(A, row, col):
     B = [[0 for _ in range(row)] for _ in range(col)]
@@ -12,8 +12,8 @@ def Transpo(A, row, col):
     for li in B:
         print(li)  
 
+"""
 Mat = [[1, 2, 3], 
        [4, 5, 6]]
-
-
 Transpo(Mat, 2, 3)
+"""
