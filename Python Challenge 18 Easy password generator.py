@@ -1,4 +1,4 @@
-
+#A function that generate eight random integers stored in a list.
 import random
 
 def EasyGenerate():
