@@ -3,6 +3,7 @@
 a=int(input("Entrer le premier nombre:"))
 b=int(input("Entrer le second nombre:"))
 operator=str(input("Choisis un operateur entre '+', '-', '*', '/':"))
+
 if operator == '+':
     print("La somme de {} et {} est: {}.".format(a, b, a+b))
 elif operator == '-':
