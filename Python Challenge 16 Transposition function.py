@@ -13,6 +13,7 @@ def Transpo(A, row, col):
         print(li)  
 
 """
+#Example:
 Mat = [[1, 2, 3], 
        [4, 5, 6]]
 Transpo(Mat, 2, 3)
