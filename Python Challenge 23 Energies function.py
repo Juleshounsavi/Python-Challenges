@@ -5,9 +5,6 @@ def energies(m, v, h):
     Ec = 0.5*m*v**2
     Ep = m*g*h
     Em = Ec + Ep
-    print("Kinetic energy: {} J".format(Ec))
-    print("Potential energy: {} J".format(Ep))
-    print("Mecanical energy: {} J".format(Em))
-
+    print("Kinetic energy: {} J\nPotential energy: {} J\nMecanical energy: {} J".format(Ec,Ep,Em))
 
 #energies(0.1, 2, 10)    
